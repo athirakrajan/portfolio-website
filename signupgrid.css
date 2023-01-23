@@ -1,0 +1,82 @@
+.sign{
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+   height: 50vh;
+   width: 50vw;
+   padding: 20px;
+   /* background-color: palegreen; */
+   grid-template-areas: 'firstname lastname lastname'
+                        'email email phone'
+                        'password address address'
+                        'gender address address'
+                        'signup signup signup';
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+                        /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;                  */
+                     
+}
+.head{
+   align-items: flex-start;
+   align-items: center;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+   /* margin-top: 200px; */
+}
+.child{
+   /* border: 2px solid; */
+   
+}
+#firstname{
+   grid-area: firstname;
+}
+#lastname{
+   grid-area: lastname;
+   
+}
+#email{
+   grid-area: email;
+}
+#phone{
+   grid-area: phone;
+}
+#password{
+   grid-area: password;
+}
+#address{
+   grid-area: address;
+}
+#gender{
+   grid-area: gender;
+}
+.firstname{
+   padding: 10px 100px;
+}
+.lastname{
+   padding: 10px 100px;
+}
+.email{
+   padding: 10px 100px;
+}
+.phone{
+   padding :10px 100px;
+   margin-left: 10px;
+}
+.password{
+   padding: 10px 100px;
+}
+.address{
+   margin-left: 10px ;
+}
+button{
+   padding: 10px 360px;
+   background-color: aqua;
+   color: pink;
+}
+button:hover{
+   background-color: pink;
+   color: aqua;
+}

@@ -1,0 +1,61 @@
+.pic{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
+    width: 70vw;
+    background-color:antiquewhite;
+    grid-template-areas: "one one two two three three"
+                "one one two two four four"
+                 "five six two two seven seven"
+                 "eight eight eight nine ten eleven"
+                 "eight eight eight nine twalev thrteen";
+}
+.child{
+    border: 2px solid;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#one{
+    grid-area:one;
+}
+#two{
+    grid-area:two;
+}
+#three{
+    grid-area:three;
+}
+#four{
+    grid-area:four;
+}
+#five{
+    grid-area:five;
+}
+#six{
+    grid-area:six;
+}
+#seven{
+    grid-area:seven;  
+}
+#eight{
+    grid-area:eight;
+}
+#nine{
+    grid-area:nine;
+}
+#ten{
+    grid-area:ten;
+}
+#eleven{
+    grid-area:eleven;
+}
+#twalev{
+    grid-area:twalev;
+}
+#thrteen{
+    grid-area:thrteen;
+}
+

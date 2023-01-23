@@ -1,0 +1,41 @@
+.one{
+    background-color: bisque;
+    height: 500px;
+    width: 606px;
+    display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   
+    }
+button{
+    padding: 10px 55px;
+    background-color: aqua;
+    
+}  
+.box{
+    padding: 10px 117px;
+}
+.abc{
+    background-color: purple;
+    height: 400px;
+    width: 200px;
+
+}
+#child1{
+    order: 4;
+}
+#child2{
+    order: 1;
+}
+#child3{
+    order: 3;
+}
+#child4{
+    order: 5;
+}
+#child5{
+    order: 2;
+}
+
+    
+   

@@ -1,0 +1,113 @@
+.wapp{
+    height: 100%;
+    width: 100%;
+
+}
+.box{
+     position: absolute;
+     top: 0;
+     z-index: -1;
+     width: 1500px;
+    height: 500px;
+    background-color: #00a884;
+    display: flex;
+    justify-content: left;
+    padding-top: 40px;
+    padding-left: 170px;
+    
+}
+h1{
+    font-size: 26px;
+    padding-bottom: 92px;
+    margin-bottom: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+    padding: 0 0 0 24px;
+}
+.black{
+    height:2000px;
+    width: 1500px;
+    background-color: black;
+    margin-top:250px;
+    
+}
+.whatsapp{
+   height:1200px ;
+   width: 900px;
+   background-color: white;
+   /* margin-top: 300px; */
+   margin-left: 200px;
+   padding-bottom: 90px;
+   
+}
+.img{
+    height: 40px;
+    width: 40px;
+    
+}
+.dot{
+    height: 10px;
+    color: #41525d;
+}
+.list1{
+    font-size: 18px;
+    line-height: 25px;
+    /* padding-bottom: px; */
+    padding: 0 0 0 24px;
+    color: #41525d;
+    padding-bottom: 20px;
+    font-style: initial;
+}
+.get{
+    color: #00a884;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 0 0 24px;
+    margin-bottom: 100px;
+
+}
+
+
+.sp{
+    visibility: visible;
+    color: var(--gray-700);
+    list-style-type: decimal;
+    list-style: none;
+    direction: ltr;
+    unicode-bidi: isolate;
+    font-weight: 300;
+}
+h3{
+    margin-left: 14px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+}
+.qrcode{
+    max-width: 800px;
+    height: 500px!important;
+    margin-left: 400px;
+    margin-bottom: 800px;
+    /* user-select: none;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    opacity: 1;
+    transition: opacity .5s cubic-bezier(.1,.82,.25,1); */
+}
+.code{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    align-items: center;
+}
+.setting{
+    height: 15px;
+    color: #41525d;
+}
+

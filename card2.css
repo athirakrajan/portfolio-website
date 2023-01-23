@@ -1,0 +1,19 @@
+h1{
+    color: brown;
+}
+.one{
+    background:rgb(128,45,140);
+    height: 200px;
+    width: 400px;
+    background-image: url(https://img.onmanorama.com/content/dam/mm/en/travel/kerala/images/2021/7/25/varkala-beach.jpg);
+    background-size: 400px,200px;
+    background-size: cover;
+    background-size: contain;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+ 
+    
+    
+
+ 

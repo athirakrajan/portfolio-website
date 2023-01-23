@@ -1,0 +1,15 @@
+p{
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+P{
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+    text-align: right;
+}

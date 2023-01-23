@@ -1,0 +1,65 @@
+.mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 2fr 1fr ;
+    height: 80vh;
+    width: 80vw;
+    background-color: palegreen;
+    grid-template-areas: "navbar navbar navbar"
+        "sidebar main main"
+        "sidebar main main"
+        "sidebar add1 add2";
+
+}
+
+#child {
+    border: 2px solid;
+    min-height: 20px;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
+
+.add1 {
+    grid-area: add1;
+}
+
+.add2 {
+    grid-area: add2;
+}
+
+@media only screen and (max-width:750px) {
+    .mobile {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: aqua;
+        grid-template-areas: "navbar navbar navbar"
+            "sidebar main main"
+            "add1 add1 add2";
+
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .mobile {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        background-color: palevioletred;
+
+        grid-template-areas: "navbar "
+            "sidebar"
+            "main "
+            "add1"
+            "add2";
+
+    }
+}

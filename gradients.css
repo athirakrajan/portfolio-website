@@ -1,0 +1,11 @@
+.box1{
+    background: greenyellow;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, yellow,green);
+    background: linear-gradient(to top,blue,black);
+    background: linear-gradient(to right,rgb(255,124,32),rgb(55,48,10));
+    background: linear-gradient(to top,#00ffff,#ff00ff);
+    background: linear-gradient(33deg,rgb(181,77,200),#00ff00,orange);
+    background: radial-gradient(red,blue,orange,pink,green);
+}

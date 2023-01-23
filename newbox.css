@@ -1,0 +1,41 @@
+.newbox{
+display: grid;    
+grid-template-columns:1fr 5fr 1fr;
+grid-template-rows:1fr 2fr 1fr 1fr;
+height: 50vh;
+width: 70vw;
+/* background-color: aqua; */
+}
+#hw{
+    min-height: 20px;
+    border: 2px solid black;
+}
+.sidebar{ 
+   grid-column:1/2 ;
+   grid-row: 2/4;
+    /* border: 2px solid black; */
+
+ }  
+.navbar{ 
+    grid-column: 1/4;
+    grid-row: 1/1;
+    border: 2px solid black;
+}  
+ 
+ .main{ 
+    grid-column: 2/3 ;
+    grid-row: 2/4 ;
+    /* border: 2px solid black; */
+      }
+ .right1{
+    /* grid-column: ; */
+    grid-row: 2/3 ;
+    /* border: 2px solid black; } */
+ }
+.right2{ 
+
+border: 2px solid black;
+ } 
+.footer{
+    grid-column:1/4 ;
+}0

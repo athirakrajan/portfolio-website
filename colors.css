@@ -1,0 +1,42 @@
+h2{
+    /* color:#ff0000 */
+    color: #0000ff;
+    color: #00ff00;
+    color: #00ffff;
+    color: #ffff00;
+    color: #ff00ff;
+    color: #ffffff;
+    color:#000000;
+    color: #00f;
+    color: #f00;
+    color:#0f0 ;
+    color: #ff0;
+    color: #666a6b;
+    color: #365ec9;
+}
+h3{
+    color: rgb(255,000,255);
+    color: rgb(0,0,255);
+    color: rgb(0,255,0);
+    color: rgb(0,0,0);
+    color: rgb(255,255,0);
+    color:rgb(128, 45, 140);
+    color:rgb(237, 17, 39);
+}
+body{
+    background: #00ffff;
+    background: #666a6b;
+    background: rgb(255,255,0);
+    /* background-image:url("https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg?w=2000"); */
+    background-repeat: no-repeat;
+    /* background-image:url("https://st3.depositphotos.com/3047333/12924/i/600/depositphotos_129246006-stock-photo-kitten-sitting-in-flowers.jpg"); */
+    background-size: 100px,300px;
+    background-size: 1500px 1500px;
+    /* background-size:800px 800px ; */
+    background-size: 1600px 900px;
+    background-size: cover;
+    background-size: contain;
+    height: 100vh;
+    opacity: 0.5;
+    
+} 

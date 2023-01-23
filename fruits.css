@@ -1,0 +1,57 @@
+.fruits{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
+    width: 70vw;
+    background-color: bisque;
+    grid-template-areas:"Apple Apple Mango Mango Papaya Papaya" 
+                         "Apple Apple Mango Mango  Strawberry Strawberry Watermelon "
+                         "Watermelon Kiwi  Mango Mango Cherry Cherry"
+                         "Pear Pear Pear Guava Apricot Grapes"  
+                         "Pear Pear Pear Guava Apricot Grapes"  
+                         "Pear Pear Pear Litchi Mulberry";
+}
+.child{
+    border: 1px solid;
+    overflow: hidden;
+}
+#Apple{
+    grid-area: Apple;
+}
+#Mango{
+    grid-area:Mango;
+}
+#Strawberry{
+    grid-area:Strawberry;
+}
+#Strawberry{
+    grid-area:Strawberry;
+}
+#Watermelon{
+    grid-area:Watermelon;
+}
+#Kiwi{
+    grid-area:Kiwi;
+} 
+#Cherry{
+    grid-area:Cherry;
+}
+#Pear{
+    grid-area:Pear;
+}
+#Guava {
+    grid-area:Guava;
+}
+#Apricot{
+    grid-area:Apricot;
+}
+#Grapes{
+    grid-area:Grapes;
+}
+#Litchi{
+    grid-area:Litchi;
+}
+#Mulberry{
+    grid-area:Mulberry;
+}

@@ -1,0 +1,36 @@
+.newbox{
+    display: grid;    
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows:1fr 1fr 5fr 2fr 1fr ;
+    height: 80vh;
+    width: 70vw;
+    background-color: aquamarine;
+    grid-template-areas:'navbar navbar navbar'
+                         'sidebar main main'    
+                          'right1 right2 right3'
+                          'footer footer footer'; 
+}
+#hw{
+    border: 1px solid;
+}
+.navbar{
+    grid-area: navbar;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main{
+    grid-area: main;
+}
+.right1{
+    grid-area: right1;
+}
+.right2{
+    grid-area: right2;
+}
+.right3{
+    grid-area: right3;
+}
+.footer{
+    grid-area: footer;
+}

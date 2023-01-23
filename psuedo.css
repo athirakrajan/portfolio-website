@@ -1,0 +1,27 @@
+.abc{
+    color: greenyellow;
+}
+.abc:hover{
+    color: aqua;
+}
+#asd{
+    color: blue;
+}
+#asd:hover{
+    color: brown;
+}
+li{
+    color: blueviolet;
+}
+li:first-child{
+    color: olivedrab;
+}
+li:last-child:hover{
+    color: orangered;
+}
+li:nth-child(3){
+    color: violet;
+}
+li:last-child{
+    color: green;
+}

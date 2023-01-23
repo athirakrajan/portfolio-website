@@ -1,0 +1,20 @@
+.box{
+    background-color:pink;
+    height:100px;
+    width: 1500px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+}
+ h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding: 10px 30px;
+}
+button{
+    padding: 5px 30px;
+}

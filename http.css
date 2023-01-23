@@ -1,0 +1,53 @@
+h1{
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family:Courier;
+    font-family: 'Pacifico', cursive;
+}
+.kmr{
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+}
+.abc{
+    color:yellowgreen;
+    font-size: 30px;
+    font-family: 'Courier New';
+}
+.xyz{
+    color: yellow;
+    font-size: 25px;
+    font-style: italic;
+}
+.cv{
+    color: blue;
+    font-size: 30px;
+    font-family:monospace;
+}
+#para{
+    color: goldenrod;
+    font-size: 25px;
+    font-style: italic;
+}
+#efg{
+    color: aqua;
+    font-size: 25px;
+    font-style: italic;
+}
+#rst{
+    color: blueviolet;
+    font-size: 25px;
+    font-style: italic;
+}
+#mno{
+    color: violet;
+    font-size: 25px;
+    font-style: italic;
+}
+#pqr{
+    color: orangered;
+    font-size: 25px;
+    font-style: italic;
+}

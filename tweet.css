@@ -1,0 +1,76 @@
+.tweet{
+    background-color: gray;
+    height: 1000px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    background-color: white;
+    height: 150px;
+    width: 500px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    /* padding: 50px; */
+    
+    }
+    #user{
+        color: gray;
+        padding: 10px 20px;
+        font-size: 10px;
+        
+    }
+    .one{
+        float: right;
+    }
+a{
+    text-decoration: none;
+    font-size: 30px;
+    }
+    .box1{
+        background-color: white;
+        height: 175px;
+        width: 500px;
+        margin-left: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+     }
+     #time{
+        color: gray;
+     }
+     .a{
+        color: rgb(111, 144, 220);
+     }
+     .box2{
+        background-color: white;
+        height: 100px;
+        width: 500px;
+        margin-left: 500px;
+     }
+     .jin{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+     }
+    .abc{
+        height: 20px;
+        width: 20px;
+        margin-left: 70px;
+        margin-bottom:10px;
+    }
+    .mess{
+        height: 20px;
+        width: 20px;
+    }
+    .like{
+        height: 20px;
+        width: 20px;
+    }
+    .kmr{
+        height: 10px;
+        width: 20px;
+    }

@@ -1,0 +1,14 @@
+h1{
+    color: greenyellow;
+    text-align: center;
+    font-size: 77px;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    color: orangered;
+    font-size: 40px;
+}
+p{
+    color: green;
+    font-family: 'Courier New';
+}

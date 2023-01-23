@@ -1,0 +1,35 @@
+.pc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80vh;
+    width: 70vw;
+    background-color: palegreen;
+    grid-template-areas: "navbar navbar navbar"
+                          "sidebar main main"
+                          "sidebar add1 add2";
+}
+#child{
+    border: 2px solid;
+}
+.navbar{
+    grid-area: navbar;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main{
+    grid-area: main;
+}
+.add1{
+    grid-area: add1;
+}
+.add2{
+    grid-area: add2;
+}
+@media screen and(max-width:750px) {
+    .box{
+        width: 450px;
+    }
+}
+    

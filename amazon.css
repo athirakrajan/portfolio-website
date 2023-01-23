@@ -1,0 +1,151 @@
+.amazon{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    margin-left: 450px;
+}
+.logo{
+    height: 31px;
+    width: 103px;
+    margin-left: 135px;
+}
+.amazonlogo{
+    height: 350px;
+    width: 300px;
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 1px #ddd solid;
+}
+h1{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+p{
+    margin-left: 20px;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+.hi{
+    color: black;
+   font-family: "Amazon Ember",Arial,sans-serif;
+   font-size: 12px!important;
+    line-height: 1.5!important;
+}
+.bold{
+    color: #0066c0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px!important;
+    line-height: 1.5!important;
+}
+.box{
+    width: 240px;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+button{
+   
+    width: 255px;
+    height: 40px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+}
+.one{
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #0066c0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px!important;
+     line-height: 1.5!important;
+}
+.new{
+    height: 100px;
+    width: 300px;
+    margin-left: 400px;
+    border-radius: 2%;
+    margin-left: 550px;
+}
+.or{
+    /* /* margin-left: 80px;  */
+    color: #767676;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px!important;
+     line-height: 1.5!important;
+      text-align: center;
+    /* position: relative; */
+    /* top: 2px; */
+    /* padding-top: 1px; */
+    /* margin-bottom: 14px; */
+    /* line-height: 0; */
+    /* margin-left: 5px; */ */
+    /* font-size: 13px; */
+    counter-reset: #999;
+    font-weight: 600;
+    text-ali
+}
+.or::before{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: relative;
+    top: 11px;
+}
+.or::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 200px;
+    
+}
+
+.next{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    margin: 0;
+    outline: 0;
+    padding: 0 10px 0 11px;
+    text-align: center;
+    white-space: nowrap;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+    margin-left: 20px;
+}

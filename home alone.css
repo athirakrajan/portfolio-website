@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    font-style: italic;
+    font-size: 25px;
+    color: green;
+}
+ul{
+    font-size: 25px;
+    color: green;
+    font-style: italic;
+}

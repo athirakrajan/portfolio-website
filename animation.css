@@ -1,0 +1,33 @@
+.animation{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    animation:happy 2s ;
+}
+@keyframes happy{
+    from{
+        background-color: palegreen;
+    }
+    to{
+        background-color: palevioletred;
+    }
+}
+.new{
+    height: 300px;
+    width: 250px;
+    background-color: pink;
+     transform: translate(300px);
+}
+.moverectangle{
+    height: 150px;
+    width: 100px;
+    background-color: aqua;
+    animation: move 6s;
+}
+@keyframes move{
+    25%{ background-color: pink;transform:translatex(100px);}
+    50%{ background-color: paleturquoise;transform:translatex(100px) translateY(100px);}
+    75%{ background-color: palegreen;transform:translatey(100px);}
+    100%{ background-color: greenyellow; }
+}
+

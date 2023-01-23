@@ -1,0 +1,50 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+body{
+    background-color:rgb(177, 172, 172) ;
+}
+.box{
+    background:gainsboro;
+    height: 700px;
+    width: 300px;
+    margin-left: 500px;
+    padding: 30px 30px;
+    margin-top: 100px;
+}
+.email{
+    padding: 10px 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.full{
+    padding: 10px 65px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.user{
+    padding: 10px 65px ;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.pw{
+    padding: 10px 65px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.para{
+    background:gainsboro ;
+    height: 50px;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 20px;
+    padding:10px 130px ;
+}
+p{
+   margin-bottom: 20px; 
+   
+}
+.button{
+    padding: 10px 65px;
+}

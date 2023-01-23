@@ -1,0 +1,21 @@
+.wave{
+    height: 150px;
+    width: 100px;
+    background-color: aqua;
+    animation: waves 10s;
+    border-radius: 50%;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    animation-duration: 4s ease-in-out 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+}
+@keyframes waves{
+    0%{ background-color: pink;transform:translate(100px);}
+    20%{ background-color: paleturquoise;transform: translatey(200px) translateX(200px);}
+    40%{ background-color: palegreen;transform:translate(400px) ;}
+    80%{ background-color: greenyellow;transform: translatey(200px) translatex(600px);}
+    100%{background-color:rgb(156, 223, 56);transform: translate(800px);} 
+    110%{background-color: ;}   
+}
